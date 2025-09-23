@@ -1,0 +1,18 @@
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+
+# LangChain (Gemini via Google AI Studio)
+langchain>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-google-genai>=1.0.0,<3.0.0
+
+# Graph orchestration
+langgraph>=0.2.0,<0.3.0
+
+# Web search (Tavily)
+tavily-python==0.7.11
+
+# FastAPI uses Pydantic v2
+pydantic>=2.7,<3
