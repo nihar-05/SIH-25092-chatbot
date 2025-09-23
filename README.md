@@ -17,6 +17,42 @@ This project combines a **Python backend agent (FastAPI + LangChain)** with a **
 
 ---
 
+## 🌱 Future Scope  
+
+### Advanced AI Capabilities
+- Integrate additional LLMs or fine-tune models for domain-specific responses  
+- Support multi-turn context and long-term conversation memory  
+
+### Scalability & Performance
+- Deploy backend with Docker + Kubernetes for horizontal scaling  
+- Implement caching (Redis/Memcached) for repeated AI calls  
+- Use task queues (Celery/RQ) for heavy AI processing asynchronously  
+
+### Analytics & Monitoring
+- Use Prometheus + Grafana to monitor API performance, DB load, and WebSocket connections  
+- Build dashboard analytics for user queries, popular topics, and system metrics  
+
+### Real-Time Enhancements
+- Implement WebSocket channels for live updates  
+- Support multi-user chat rooms or collaborative conversation features  
+
+### Multi-Platform Support
+- Build mobile app support with React Native or Next.js PWA  
+- Integrate with messaging platforms: WhatsApp, Telegram, Slack  
+
+### Knowledge Base Integration
+- Connect to internal FAQs, PDFs, or databases for domain-specific answers  
+- Enable semantic search on uploaded documents  
+
+### Security & Compliance
+- JWT authentication and user role management  
+- Encrypt sensitive data in PostgreSQL  
+
+### Extensibility
+- Modular plugin system for voice input, translation, sentiment analysis, and more  
+
+---
+
 ## ⚙️ Tech Stack  
 
 ### Frontend  
