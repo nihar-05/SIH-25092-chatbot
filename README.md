@@ -17,7 +17,7 @@ This project combines a **Python backend agent (FastAPI + LangChain)** with a **
 
 ---
 
-## 🌱 Future Scope  
+## 🌱 Future Scopes
 
 ### Advanced AI Capabilities
 - Integrate additional LLMs or fine-tune models for domain-specific responses  
